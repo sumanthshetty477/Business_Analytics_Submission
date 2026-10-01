@@ -1,0 +1,4 @@
+,age,duration_years,expected_return_pct
+age,1.0,0.052,-0.09
+duration_years,0.052,1.0,0.258
+expected_return_pct,-0.09,0.258,1.0

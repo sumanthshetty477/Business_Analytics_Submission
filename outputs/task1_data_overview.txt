@@ -1,0 +1,67 @@
+Rows: 40  Columns: 24
+
+<class 'pandas.DataFrame'>
+RangeIndex: 40 entries, 0 to 39
+Data columns (total 24 columns):
+ #   Column                             Non-Null Count  Dtype
+---  ------                             --------------  -----
+ 0   gender                             40 non-null     str  
+ 1   age                                40 non-null     int64
+ 2   Investment_Avenues                 40 non-null     str  
+ 3   Mutual_Funds                       40 non-null     int64
+ 4   Equity_Market                      40 non-null     int64
+ 5   Debentures                         40 non-null     int64
+ 6   Government_Bonds                   40 non-null     int64
+ 7   Fixed_Deposits                     40 non-null     int64
+ 8   PPF                                40 non-null     int64
+ 9   Gold                               40 non-null     int64
+ 10  Stock_Marktet                      40 non-null     str  
+ 11  Factor                             40 non-null     str  
+ 12  Objective                          40 non-null     str  
+ 13  Purpose                            40 non-null     str  
+ 14  Duration                           40 non-null     str  
+ 15  Invest_Monitor                     40 non-null     str  
+ 16  Expect                             40 non-null     str  
+ 17  Avenue                             40 non-null     str  
+ 18  What are your savings objectives?  40 non-null     str  
+ 19  Reason_Equity                      40 non-null     str  
+ 20  Reason_Mutual                      40 non-null     str  
+ 21  Reason_Bonds                       40 non-null     str  
+ 22  Reason_FD                          40 non-null     str  
+ 23  Source                             40 non-null     str  
+dtypes: int64(8), str(16)
+memory usage: 7.6 KB
+
+Missing values:
+gender                               0
+age                                  0
+Investment_Avenues                   0
+Mutual_Funds                         0
+Equity_Market                        0
+Debentures                           0
+Government_Bonds                     0
+Fixed_Deposits                       0
+PPF                                  0
+Gold                                 0
+Stock_Marktet                        0
+Factor                               0
+Objective                            0
+Purpose                              0
+Duration                             0
+Invest_Monitor                       0
+Expect                               0
+Avenue                               0
+What are your savings objectives?    0
+Reason_Equity                        0
+Reason_Mutual                        0
+Reason_Bonds                         0
+Reason_FD                            0
+Source                               0
+
+First 5 rows:
+   gender  age Investment_Avenues  Mutual_Funds  Equity_Market  Debentures  Government_Bonds  Fixed_Deposits  PPF  Gold Stock_Marktet          Factor             Objective          Purpose           Duration Invest_Monitor   Expect       Avenue What are your savings objectives?         Reason_Equity         Reason_Mutual     Reason_Bonds            Reason_FD                    Source
+0  Female   34                Yes             1              2           5                 3               7    6     4           Yes         Returns  Capital Appreciation  Wealth Creation          1-3 years        Monthly  20%-30%  Mutual Fund                   Retirement Plan  Capital Appreciation        Better Returns  Safe Investment        Fixed Returns  Newspapers and Magazines
+1  Female   23                Yes             4              3           2                 1               5    6     7            No  Locking Period  Capital Appreciation  Wealth Creation  More than 5 years         Weekly  20%-30%  Mutual Fund                       Health Care              Dividend        Better Returns  Safe Investment  High Interest Rates     Financial Consultants
+2    Male   30                Yes             3              6           4                 2               5    1     7           Yes         Returns  Capital Appreciation  Wealth Creation          3-5 years          Daily  20%-30%       Equity                   Retirement Plan  Capital Appreciation          Tax Benefits  Assured Returns        Fixed Returns                Television
+3    Male   22                Yes             2              1           3                 7               6    4     5           Yes         Returns                Income  Wealth Creation   Less than 1 year          Daily  10%-20%       Equity                   Retirement Plan              Dividend  Fund Diversification   Tax Incentives  High Interest Rates                  Internet
+4  Female   24                 No             2              1           3                 6               4    5     7            No         Returns                Income  Wealth Creation   Less than 1 year          Daily  20%-30%       Equity                   Retirement Plan  Capital Appreciation        Better Returns  Safe Investment            Risk Free                  Internet
